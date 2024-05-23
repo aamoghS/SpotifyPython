@@ -3,9 +3,10 @@ from spotipy.oauth2 import SpotifyOAuth, SpotifyClientCredentials
 import random
 import tkinter as tk
 
-CLIENT_ID = 'b32b8768bcdf4670995ebbf8c48e5b5c'
-CLIENT_SECRET = 'f7724efc385c4cee92d07f6dce5c513f'
-REDIRECT_URI = 'https://github.com/aamoghS'
+CLIENT_ID = ''
+CLIENT_SECRET = ''
+REDIRECT_URI = ''
+#your own
 SCOPE = 'playlist-modify-private user-top-read'
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=CLIENT_ID,
